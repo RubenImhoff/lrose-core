@@ -36,7 +36,7 @@
 
 #include <string>
 #include <vector>
-#include "$HOME/git/lrose-core/codebase/apps/titan/src/MomentsCompute/include/fftw3.h"
+#include "/home/WUR/imhof002/git/lrose-core/codebase/apps/titan/src/MomentsCompute/include/fftw3.h"
 #include <radar/RadarComplex.hh>
 
 using namespace std;
