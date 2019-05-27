@@ -659,6 +659,8 @@ def writeMakefileAm():
         for index, loadLib in enumerate(loadLibList):
             if (index == 0):
                 fo.write("LDADD = -l%s\n" % loadLib)
+            elif loadLib == 'fl':
+                fo.write("LDADD = /cm/shared/apps/flex/gcc/64/2.5.39/lib/libfl.a")
             else:
                 fo.write("LDADD += -l%s\n" % loadLib)
         fo.write("\n")
