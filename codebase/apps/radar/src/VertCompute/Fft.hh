@@ -35,7 +35,7 @@
 #define Fft_hh
 
 #include <string>
-#include <fftw3.h>
+#include "/home/WUR/imhof002/git/lrose-core/codebase/apps/titan/src/MomentsCompute/include/fftw3.h"
 #include "Complex.hh"
 
 using namespace std;
